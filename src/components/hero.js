@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faHtml5, faCss3Alt, faBootstrap, faSquareJs,faReact,faGithub,faNode,faTelegram} from '@fortawesome/free-brands-svg-icons'
-import {Link} from 'react-router-dom';
+import {faHtml5, faCss3Alt, faBootstrap, faSquareJs,faReact,faGithub,faNode,faPhp} from '@fortawesome/free-brands-svg-icons'
+
 
 
 
@@ -8,6 +8,7 @@ function MyHero() {
   return (
   
     <>
+    
     <div class="main"></div>
       <div className="container mp">
         <div className="row">
@@ -34,7 +35,7 @@ function MyHero() {
       
       <div className="container mp">
         <h1 className="title">Skills and Experience</h1>
-          <p className="px-5 mx-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of </p>
+          <p className="px-5 mx-5"> I have a strong background in web development with expertise in Bootstrap, HTML, CSS, and JavaScript. I have honed my skills in creating responsive and visually appealing websites throughout the bootcamp.</p>
             <div className="row">
               <div className="col-3 icons">
               <FontAwesomeIcon icon={faHtml5} />
@@ -58,21 +59,9 @@ function MyHero() {
               <FontAwesomeIcon icon={faNode} />
               </div>
               <div className="col-3 icons">
-              <FontAwesomeIcon icon={faTelegram} />
+              <FontAwesomeIcon icon={faPhp} />
               </div>
             </div>
-      </div>
-
-
-      <div className="container mp">
-        <div className="row">
-            <div className="col-12">
-                <h1 className="title">Portfolio and Previous Projects</h1>
-              <p>I have built various different projects to fit different aspects of the client's business. If you want to see more examples of my work than the ones showcased in this site, please contact me!</p>
-              <div className="Btns"><Link to="/Skills">Click me!</Link></div>
-            </div>
-            
-        </div>
       </div>
       
     

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
 
 
+
 body{
     background-color: #000;
 }
@@ -10,7 +11,7 @@ p{
     color:white;
     text-align: center;
     font-size: 30px;
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Darker Grotesque', sans-serif!important;
 }
 h1 {
     font-size: 7em;
@@ -18,7 +19,7 @@ h1 {
     color: rgb(92, 245, 21);
     letter-spacing: 5px;
     cursor: pointer;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', cursive!important;
 }
 
 .card-body {
@@ -120,7 +121,7 @@ span:nth-child(3):hover
 
 
   
-  animation: zoom 10s alternate infinite; 
+  animation: zoom 8s alternate infinite; 
 }
 
 @keyframes zoom {
@@ -157,7 +158,7 @@ span:nth-child(3):hover
   }
 
 .mp {
-    margin-top: 280px;
+    margin-top: 254px;
 }
 
 .icons {
@@ -267,3 +268,19 @@ span:nth-child(3):hover
     color: white;
     text-decoration: none;
 }
+
+.Image {
+	overflow: hidden;
+	height: 100%;
+}
+
+.Image img{
+	height: 100%;
+	object-fit: cover;
+}
+
+.Image img:hover {
+	transform: scale(1.1);
+	transition: .5s;
+}
+
