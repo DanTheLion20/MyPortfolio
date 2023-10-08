@@ -22,7 +22,7 @@ const Skills = () => {
           <div className="col-4">
             <div
               className="card bg-transparent border border-light"
-              onClick={() => openLinkInNewTab("https://danthelion20.github.io/Exercise12_Perez/")} 
+              onClick={() => openLinkInNewTab("https://danthelion20.github.io/Citrus-Anime/")} 
               style={{ cursor: "pointer" }}
             >
               <div className="Image">
