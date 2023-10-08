@@ -16,7 +16,7 @@ p{
 h1 {
     font-size: 7em;
     font-weight: 400;
-    color: rgb(92, 245, 21);
+    color: #1bffa0;
     letter-spacing: 5px;
     cursor: pointer;
     font-family: 'Press Start 2P', cursive!important;
@@ -29,30 +29,6 @@ h1 {
     font-family: 'Darker Grotesque', sans-serif;
 }
 
-.brand_button1 {
-    font-size: 20px;
-    width: 25%;
-    text-align: center;
-    color:#fc4f13;
-    border: 1px solid #fc4f13;
-    padding: 1px;
-}
-.brand_button2 {
-    font-size: 20px;
-    width: 25%;
-    text-align: center;
-    color:#264de4;
-    border: 1px solid #264de4;
-    padding: 1px;
-}
-.brand_button3 {
-    font-size: 20px;
-    width: 40%;
-    text-align: center;
-    color: #f7e025;
-    border: 1px solid #f7e025;
-    padding: 1px;
-}
 
 
 h1 span {
@@ -96,7 +72,7 @@ span:nth-child(3):hover
 .title {
     font-size: 3em;
     font-weight: 400;
-    color: rgb(92, 245, 21);
+    color: #1bffa0;
     letter-spacing: 5px;
     cursor: pointer;
     font-family: 'Press Start 2P', cursive;
@@ -169,7 +145,7 @@ span:nth-child(3):hover
 
 .icons:hover {
 
-    color: rgb(92, 245, 21);
+    color: #1bffa0;
     transition: .5s;
 }
 
@@ -204,42 +180,42 @@ span:nth-child(3):hover
     transform: translateZ(160px);
 }
 .spinner .face1:hover { 
-    color: rgb(92, 245, 21);
+    color: #1bffa0;
     transition: .5s;
 }
 .spinner .face2 { 
     transform: rotateY(90deg) translateZ(160px); 
 }
 .spinner .face2:hover { 
-    color: rgb(92, 245, 21);
+    color: #1bffa0;
     transition: .5s;
 }
 .spinner .face3 { 
     transform: rotateY(90deg) rotateX(90deg) translateZ(160px); 
 }
 .spinner .face3:hover{ 
-    color: rgb(92, 245, 21);
+    color: #1bffa0;
     transition: .5s;
 }
 .spinner .face4 { 
     transform: rotateY(180deg) rotateZ(90deg) translateZ(160px); 
 }
 .spinner .face4:hover { 
-    color: rgb(92, 245, 21);
+    color: #1bffa0;
     transition: .5s;
 }
 .spinner .face5 { 
     transform: rotateY(-90deg) rotateZ(90deg) translateZ(160px); 
 }
 .spinner .face5:hover { 
-    color: rgb(92, 245, 21);
+    color: #1bffa0;
     transition: .5s;
 }
 .spinner .face6 { 
     transform: rotateX(-90deg) translateZ(160px); 
 }
 .spinner .face6:hover { 
-    color: rgb(92, 245, 21);
+    color: #1bffa0;
     transition: .5s;
 }
 
@@ -258,17 +234,6 @@ span:nth-child(3):hover
 }
 
 
-.Btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid blue;
-    width: 10%;
-    margin: auto;
-    color: white;
-    text-decoration: none;
-}
-
 .Image {
 	overflow: hidden;
 	height: 100%;
@@ -284,3 +249,84 @@ span:nth-child(3):hover
 	transition: .5s;
 }
 
+/*Contact Me*/
+
+#contactPage {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg {
+    font-size: 1.3rem;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background:  rgb(40, 40, 40);
+    z-index: 999;
+    font-family: 'Darker Grotesque', sans-serif!important;
+}
+
+/*btn design */
+
+.submitBtn {
+    background: rgb(0, 0, 0);
+    border: 1px solid white;
+    margin: 1rem;
+    padding: 9px 25px;
+    padding-top: 14px;
+    padding-left: 28px;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive!important;
+    color:#1bffa0;
+}
+
+.submitBtn:hover 
+{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff,
+    0 0 120px #fff;
+    transition: .4s;
+}
+ 
+
+@media screen and (max-width:780px) {
+    
+}
+
+@media screen and (max-width:480px) {
+    .name, .email, .msg {
+        width: 90vw;
+    }
+    .contactDesc{
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+}

@@ -18,7 +18,7 @@ const Skills = () => {
           the client's business. If you want to see more examples of my work
           than the ones showcased in this site, please contact me!
         </p>
-        <div className="row mb-5">
+        <div className="row mb-5 pb-3">
           <div className="col-4">
             <div
               className="card bg-transparent border border-light"
@@ -73,8 +73,6 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="col-4"></div>
-          <div className="col-4"></div>
         </div>
       </div>
     </>
