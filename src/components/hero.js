@@ -10,7 +10,7 @@ function MyHero() {
     <>
     
     <div class="main"></div>
-      <div className="container mp">
+      <div className="container mp mb-5 pb-5">
         <div className="row">
             <div className="col-6">
                 <h1><span>Hi</span> <span>I'm</span> <span>Dan</span></h1>

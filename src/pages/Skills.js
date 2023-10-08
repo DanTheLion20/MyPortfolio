@@ -4,7 +4,7 @@ import {faHtml5, faCss3Alt, faBootstrap, faSquareJs,faReact,faGithub,faNode,faPh
 const  Skills = () => {
     return ( <>
     
-    <div className="container mp">
+    <div className="container mp pt-5">
         <h1 className="title">Skills and Experience</h1>
           <p className="px-5 mx-5"> I have a strong background in web development with expertise in Bootstrap, HTML, CSS, and JavaScript. I have honed my skills in creating responsive and visually appealing websites throughout the bootcamp.</p>
             <div className="row">
