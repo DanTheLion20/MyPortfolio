@@ -1,88 +1,40 @@
-/* eslint-disable jsx-a11y/alt-text */
-import React from "react";
-import Image1 from "../img/CitrusAnime.png";
-import Image2 from "../img/PalawanWebsite.png";
-import Image3 from "../img/DripSole.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faHtml5, faCss3Alt, faBootstrap, faSquareJs,faReact,faGithub,faNode,faPhp} from '@fortawesome/free-brands-svg-icons'
 
-const Skills = () => {
-  const openLinkInNewTab = (link) => {
-    window.open(link, "_blank");
-  };
-
-  return (
-    <>
-      <div className="container mp">
-        <h1 className="title">Portfolio and Previous Projects</h1>
-        <p className="mb-5 pb-5 mt-2">
-          I have built various different projects to fit different aspects of
-          the client's business. If you want to see more examples of my work
-          than the ones showcased in this site, please contact me!
-        </p>
-        <div className="row mb-5 pb-4">
-              <div className="col-4">
-                <div
-                  className="card bg-transparent border border-light"
-                  onClick={() => openLinkInNewTab("https://danthelion20.github.io/Citrus-Anime/")}
-                  style={{ cursor: "pointer" }}
-                >
-                  <div className="Image">
-                    <img
-                      className="card-image w-100 img-fluid px-2 py-2"
-                      src={Image1}
-                      style={{ height: "270px" }}
-                      alt="Citrus Anime"
-                    />
-                  </div>
-                  <div className="card-body">
-                    <h2 className="card_text">Anime Website:</h2>
-                    <h3 className="card_text">Citrus Anime</h3>
-                  </div>
-                </div>
+const  Skills = () => {
+    return ( <>
+    
+    <div className="container mp">
+        <h1 className="title">Skills and Experience</h1>
+          <p className="px-5 mx-5"> I have a strong background in web development with expertise in Bootstrap, HTML, CSS, and JavaScript. I have honed my skills in creating responsive and visually appealing websites throughout the bootcamp.</p>
+            <div className="row">
+              <div className="col-3 icons">
+              <FontAwesomeIcon icon={faHtml5} />
               </div>
-              <div className="col-4">
-                <div
-                  className="card bg-transparent border border-light"
-                  onClick={() => openLinkInNewTab("https://danthelion20.github.io/Palawan/")}
-                  style={{ cursor: "pointer" }}
-                >
-                  <div className="Image">
-                    <img
-                      className="card-image w-100 img-fluid px-2 py-2"
-                      src={Image2}
-                      style={{ height: "270px" }}
-                      alt="Palawan"
-                    />
-                  </div>
-                  <div className="card-body">
-                    <h2 className="card_text">Travel Website:</h2>
-                    <h3 className="card_text">Palawan</h3>
-                  </div>
-                </div>
+              <div className="col-3 icons">
+              <FontAwesomeIcon icon={faCss3Alt} />
               </div>
-              <div className="col-4">
-                <div
-                  className="card bg-transparent border border-light"
-                  onClick={() => openLinkInNewTab("https://danthelion20.github.io/Drip-Sole/")}
-                  style={{ cursor: "pointer" }}
-                >
-                  <div className="Image">
-                    <img
-                      className="card-image w-100 img-fluid px-2 py-2"
-                      src={Image3}
-                      style={{ height: "270px" }} 
-                      alt="Drip Sole"
-                    />
-                  </div>
-                  <div className="card-body">
-                    <h2 className="card_text">Ecommerce Website:</h2>
-                    <h3 className="card_text">Drip Sole</h3>
-                  </div>
-                </div>
+              <div className="col-3 icons">
+              <FontAwesomeIcon icon={faBootstrap} />
+              </div>
+              <div className="col-3 icons">
+              <FontAwesomeIcon icon={faSquareJs} />
+              </div>
+              <div className="col-3 icons">
+              <FontAwesomeIcon icon={faReact} />
+              </div>
+              <div className="col-3 icons">
+              <FontAwesomeIcon icon={faGithub} />
+              </div>
+              <div className="col-3 icons">
+              <FontAwesomeIcon icon={faNode} />
+              </div>
+              <div className="col-3 icons">
+              <FontAwesomeIcon icon={faPhp} />
               </div>
             </div>
       </div>
-    </>
-  );
-};
-
+      </> );
+}
+ 
 export default Skills;

@@ -1,8 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css"
-import MyHero from "./components/hero";
-import Skills from "./pages/Skills";
-import ContactMe from "./pages/ContactMe";
 import './App.css';
+import MyHero from "./components/hero";
+import ContactMe from "./pages/ContactMe";
+import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
 
 
 
@@ -10,8 +11,9 @@ import './App.css';
 function App() {
   return (
    <>
-     <MyHero></MyHero>
+    <MyHero></MyHero>
     <Skills></Skills>
+    <Projects></Projects>
     <ContactMe></ContactMe>
     </>
    
