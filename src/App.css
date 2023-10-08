@@ -316,6 +316,29 @@ span:nth-child(3):hover
 }
  
 
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_icons {
+    text-align: center;
+    color:white;
+    font-size: 3em;
+    margin: auto;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.contact_icons:hover {
+
+    color: #1bffa0;
+    transition: .5s;
+}
+
+
 @media screen and (max-width:780px) {
     
 }
