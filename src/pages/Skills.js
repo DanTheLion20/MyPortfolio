@@ -40,7 +40,7 @@ const Skills = () => {
           <div className="col-4">
             <div
               className="card bg-transparent border border-light"
-              onClick={() => openLinkInNewTab("https://danthelion20.github.io/MP1/index.html")} 
+              onClick={() => openLinkInNewTab("https://danthelion20.github.io/Palawan/")} 
               style={{ cursor: "pointer" }}
             >
               <div className="Image">
@@ -58,7 +58,7 @@ const Skills = () => {
           <div className="col-4">
             <div
               className="card bg-transparent border border-light"
-              onClick={() => openLinkInNewTab("https://danthelion20.github.io/MP2/")} 
+              onClick={() => openLinkInNewTab("https://danthelion20.github.io/Drip-Sole/")} 
               style={{ cursor: "pointer" }}
             >
               <div className="Image">
