@@ -7,11 +7,11 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_9t285gg', 'template_jtjlmlm', form.current, 'jTQm_5-CfwBO_GMvT')
+    emailjs.sendForm('service_op7yx6r', 'template_dao5ddb', form.current, 'v4oISPwlWBSrMP9vQ')
       .then((result) => {
           console.log(result.text);
           e.target.reset();
-          alert('Email Sent !');
+          alert('Email Sent!');
       }, (error) => {
           console.log(error.text);
       });

@@ -19,61 +19,67 @@ const Skills = () => {
           than the ones showcased in this site, please contact me!
         </p>
         <div className="row mb-5 pb-3">
-          <div className="col-4">
-            <div
-              className="card bg-transparent border border-light"
-              onClick={() => openLinkInNewTab("https://danthelion20.github.io/Citrus-Anime/")} 
-              style={{ cursor: "pointer" }}
-            >
-              <div className="Image">
-                <img
-                  className="card-image w-100 img-fluid px-2 py-2"
-                  src={Image1}
-                />
+              <div className="col-4">
+                <div
+                  className="card bg-transparent border border-light"
+                  onClick={() => openLinkInNewTab("https://danthelion20.github.io/Citrus-Anime/")}
+                  style={{ cursor: "pointer" }}
+                >
+                  <div className="Image">
+                    <img
+                      className="card-image w-100 img-fluid px-2 py-2"
+                      src={Image1}
+                      style={{ height: "270px" }}
+                      alt="Citrus Anime"
+                    />
+                  </div>
+                  <div className="card-body">
+                    <h2 className="card_text">Anime Website:</h2>
+                    <h3 className="card_text">Citrus Anime</h3>
+                  </div>
+                </div>
               </div>
-              <div className="card-body">
-                <h2 className="card_text">Anime Website:</h2>
-                <h3 className="card_text">Citrus Anime</h3>
+              <div className="col-4">
+                <div
+                  className="card bg-transparent border border-light"
+                  onClick={() => openLinkInNewTab("https://danthelion20.github.io/Palawan/")}
+                  style={{ cursor: "pointer" }}
+                >
+                  <div className="Image">
+                    <img
+                      className="card-image w-100 img-fluid px-2 py-2"
+                      src={Image2}
+                      style={{ height: "270px" }}
+                      alt="Palawan"
+                    />
+                  </div>
+                  <div className="card-body">
+                    <h2 className="card_text">Travel Website:</h2>
+                    <h3 className="card_text">Palawan</h3>
+                  </div>
+                </div>
+              </div>
+              <div className="col-4">
+                <div
+                  className="card bg-transparent border border-light"
+                  onClick={() => openLinkInNewTab("https://danthelion20.github.io/Drip-Sole/")}
+                  style={{ cursor: "pointer" }}
+                >
+                  <div className="Image">
+                    <img
+                      className="card-image w-100 img-fluid px-2 py-2"
+                      src={Image3}
+                      style={{ height: "270px" }} 
+                      alt="Drip Sole"
+                    />
+                  </div>
+                  <div className="card-body">
+                    <h2 className="card_text">Ecommerce Website:</h2>
+                    <h3 className="card_text">Drip Sole</h3>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-4">
-            <div
-              className="card bg-transparent border border-light"
-              onClick={() => openLinkInNewTab("https://danthelion20.github.io/Palawan/")} 
-              style={{ cursor: "pointer" }}
-            >
-              <div className="Image">
-                <img
-                  className="card-image w-100 img-fluid px-2 py-2"
-                  src={Image2}
-                />
-              </div>
-              <div className="card-body">
-                <h2 className="card_text">Travel Website:</h2>
-                <h3 className="card_text">Palawan</h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-4">
-            <div
-              className="card bg-transparent border border-light"
-              onClick={() => openLinkInNewTab("https://danthelion20.github.io/Drip-Sole/")} 
-              style={{ cursor: "pointer" }}
-            >
-              <div className="Image">
-                <img
-                  className="card-image w-100 img-fluid px-2 py-2"
-                  src={Image3}
-                />
-              </div>
-              <div className="card-body">
-                <h2 className="card_text">Ecommerce Website:</h2>
-                <h3 className="card_text">Drip Sole</h3>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );
